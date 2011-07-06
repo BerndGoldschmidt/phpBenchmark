@@ -7,7 +7,7 @@ Create your own benchmark
   To create your own benchmark, write a class extending AbstractBenchmark.
   Every public bechmark<Something>() method will be called RUNS times.
 
-  See example benchmark class in /benchmarks/ArrayTraversalBenchmrk.class.php
+  See example benchmark class in /benchmarks/ArrayTraversalBenchmark.class.php
 
 Usage:
 --------------------------------------------------------------------------------
