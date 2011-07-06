@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Minimal run script for phpBenchmark
+ *
+ * @author Bernd Goldschmidt <github@berndgoldschmidt.de>
+ * @copyright 2011 Bernd Goldschmidt <github@berndgoldschmidt.de>
+ */
+
 // path of this script
 $path = rtrim(dirname(__FILE__), DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR;
 
