@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>phpBenchmark by BerndGoldschmidt</title>
+    
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>phpBenchmark</h1>
+        <p>Benchmark Suite for php</p>
+        <p class="view"><a href="https://github.com/BerndGoldschmidt/phpBenchmark">View the Project on GitHub <small>BerndGoldschmidt/phpBenchmark</small></a></p>
+        <ul>
+          <li><a href="https://github.com/BerndGoldschmidt/phpBenchmark/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/BerndGoldschmidt/phpBenchmark/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/BerndGoldschmidt/phpBenchmark">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>A simple benchmark tool / framework</h1>
+
+<h2>Create your own benchmark</h2>
+
+<p>To create your own benchmark, write a class extending AbstractBenchmark.
+Every public bechmark() method will be called RUNS times.</p>
+
+<p>See example benchmark class in /benchmarks/ArrayTraversalBenchmark.class.php</p>
+
+<h3>Usage:</h3>
+
+<pre><code>$ php run.php BenchmarkName [BenchmarkName]...
+</code></pre>
+
+<h3>Example:</h3>
+
+<pre><code>$ php run.php ArrayTraversal
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/BerndGoldschmidt">BerndGoldschmidt</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
