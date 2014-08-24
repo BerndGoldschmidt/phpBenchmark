@@ -1,18 +1,15 @@
---------------------------------------------------------------------------------
-- A simple benchmark tool / framework                                          -
---------------------------------------------------------------------------------
+# A simple benchmark tool / framework
 
-Create your own benchmark
---------------------------------------------------------------------------------
-  To create your own benchmark, write a class extending AbstractBenchmark.
-  Every public bechmark<Something>() method will be called RUNS times.
+## Create your own benchmark
 
-  See example benchmark class in /benchmarks/ArrayTraversalBenchmark.class.php
+To create your own benchmark, write a class extending AbstractBenchmark. Every public bechmark<Something>() method will be called RUNS times.
 
-Usage:
---------------------------------------------------------------------------------
-  > php run.php BenchmarkName [BenchmarkName]...
+See example benchmark class in /benchmarks/ArrayTraversalBenchmark.class.php
 
-Example:
---------------------------------------------------------------------------------
-  > php run.php ArrayTraversal
+## Usage:
+
+    > php run.php BenchmarkName [BenchmarkName]...
+
+### Example:
+
+    > php run.php ArrayTraversal
