@@ -49,7 +49,7 @@ class Benchmark
         $benchmark = self::_getClass($benchmarkName, $benchmarkPath);
 
         if (!($benchmark instanceof AbstractBenchmark)) {
-         throw new Exception('Every benchmark must inherit from AbstractBenchmark');
+            throw new Exception('Every benchmark must inherit from AbstractBenchmark');
         }
 
         $benchmarkMethodNames = self::_getBenchmarkMethodNames($benchmark);
@@ -100,9 +100,9 @@ class Benchmark
         $benchmarkMethodNames = array();
 
         foreach ($methods as $method) {
-         if (preg_match('/^benchmark/', $method->getName())) {
-             $benchmarkMethodNames[] = $method->getName();
-         }
+            if (preg_match('/^benchmark/', $method->getName())) {
+                $benchmarkMethodNames[] = $method->getName();
+            }
         }
 
         return $benchmarkMethodNames;
